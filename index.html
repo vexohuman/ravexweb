@@ -60,15 +60,15 @@
     <header class="border-b border-gray-800/60 bg-cardBg/60 backdrop-blur-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center space-x-3">
-                <img src="https://cdn.discordapp.com/avatars/1521676833249038497/7780c136ff1e0113fecb1aa0ab017616.png?size=1024" alt="RaveX Logo" class="w-10 h-10 rounded-full border border-rave/4[...]
+                <img src="https://cdn.discordapp.com/avatars/1521676833249038497/7780c136ff1e0113fecb1aa0ab017616.png?size=1024" alt="RaveX Logo" class="w-10 h-10 rounded-full border border-rave/40">
                 <span class="text-xl font-bold tracking-wider text-white">Rave<span class="text-rave">X</span></span>
             </div>
             <div class="flex items-center space-x-4">
-                <button id="audioToggle" onclick="toggleAudio()" class="flex items-center space-x-2 bg-inputBg border border-gray-700/60 hover:border-rave/40 text-gray-300 px-3.5 py-2 rounded-lg t[...]
+                <button id="audioToggle" onclick="toggleAudio()" class="flex items-center space-x-2 bg-inputBg border border-gray-700/60 hover:border-rave/40 text-gray-300 px-3.5 py-2 rounded-lg transition-colors">
                     <i id="audioIcon" class="fas fa-volume-mute text-rave"></i>
                     <span id="audioText" class="hidden sm:inline">Play Ambient</span>
                 </button>
-                <a href="https://discord.gg/qm9T59xggQ" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-rave/10 border border-rave/30 hover:bg-rave hover:text-white[...]
+                <a href="https://discord.gg/qm9T59xggQ" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-rave/10 border border-rave/30 hover:bg-rave hover:text-white transition-all rounded-lg px-3.5 py-2">
                     <i class="fab fa-discord"></i>
                     <span>Support Server</span>
                 </a>
@@ -78,10 +78,10 @@
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow w-full space-y-10">
 
-        <section class="bg-cardBg border border-gray-800/80 rounded-2xl p-6 sm:p-10 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 animate-fadeIn">[...]
+        <section class="bg-cardBg border border-gray-800/80 rounded-2xl p-6 sm:p-10 shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 animate-fadeIn">
             <div class="absolute -right-20 -top-20 w-72 h-72 bg-rave/10 rounded-full blur-3xl pointer-events-none"></div>
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left z-10">
-                <img src="https://cdn.discordapp.com/avatars/1521676833249038497/7780c136ff1e0113fecb1aa0ab017616.png?size=1024" alt="RaveX PFP" class="w-24 h-24 sm:w-28 sm:h-28 rounded-full borde[...]
+                <img src="https://cdn.discordapp.com/avatars/1521676833249038497/7780c136ff1e0113fecb1aa0ab017616.png?size=1024" alt="RaveX PFP" class="w-24 h-24 sm:w-28 sm:h-28 rounded-full border-2 border-rave/40">
                 <div class="space-y-3">
                     <div class="flex flex-col sm:flex-row sm:items-center gap-2">
                         <h1 class="text-3xl font-extrabold text-white tracking-wide">RaveX</h1>
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="flex flex-col sm:flex-row gap-3 z-10 w-full md:w-auto shrink-0">
-                <a href="https://discord.com/oauth2/authorize?client_id=1521676833249038497&scope=bot+applications.commands" target="_blank" rel="noopener noreferrer" class="flex items-center just[...]
+                <a href="https://discord.com/oauth2/authorize?client_id=1521676833249038497&scope=bot+applications.commands" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center space-x-2 bg-rave/20 hover:bg-rave border border-rave/50 hover:border-rave text-white px-6 py-2.5 rounded-lg transition-all font-semibold">
                     <i class="fab fa-discord"></i>
                     <span>Invite Me</span>
                 </a>
@@ -106,7 +106,7 @@
                     <i class="fas fa-server"></i>
                 </div>
                 <div>
-                    <h4 id="statServers" class="text-2xl font-extrabold text-white">1,482</h4>
+                    <h4 id="statServers" class="text-2xl font-extrabold text-white">4</h4>
                     <p class="text-xs text-gray-400 font-medium">Servers</p>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                     <i class="fas fa-users"></i>
                 </div>
                 <div>
-                    <h4 id="statUsers" class="text-2xl font-extrabold text-white">452,190</h4>
+                    <h4 id="statUsers" class="text-2xl font-extrabold text-white">162</h4>
                     <p class="text-xs text-gray-400 font-medium">Users Reached</p>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                     <i class="fas fa-terminal"></i>
                 </div>
                 <div>
-                    <h4 id="statCommands" class="text-2xl font-extrabold text-white">3.4M</h4>
+                    <h4 id="statCommands" class="text-2xl font-extrabold text-white">1</h4>
                     <p class="text-xs text-gray-400 font-medium">Commands Run</p>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                 <div>
                     <h4 class="text-2xl font-extrabold text-white flex items-center space-x-1.5">
                         <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block animate-ping"></span>
-                        <span id="statUptime" class="text-emerald-400 text-lg">99.9%</span>
+                        <span id="statUptime" class="text-emerald-400 text-lg">1h 50m 17s</span>
                     </h4>
                     <p class="text-xs text-gray-400 font-medium">Uptime Status</p>
                 </div>
@@ -152,13 +152,13 @@
                         <i class="fas fa-terminal text-rave"></i>
                         <span>Commands Directory</span>
                     </h2>
-                    <p class="text-gray-400 text-sm mt-1">Explore all available modules and commands. Use the prefix <code class="bg-inputBg text-rave px-2 py-0.5 rounded font-mono">&</code> for [...]
+                    <p class="text-gray-400 text-sm mt-1">Explore all available modules and commands. Use the prefix <code class="bg-inputBg text-rave px-2 py-0.5 rounded font-mono">&</code> for all commands.</p>
                 </div>
                 <div class="relative w-full md:w-80">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-gray-400">
                         <i class="fas fa-search text-sm"></i>
                     </span>
-                    <input type="text" id="commandSearch" placeholder="Search commands..." class="w-full bg-inputBg border border-gray-700/60 rounded-xl pl-10 pr-4 py-2.5 text-sm text-gray-200 pl[...]
+                    <input type="text" id="commandSearch" placeholder="Search commands..." class="w-full bg-inputBg border border-gray-700/60 rounded-xl pl-10 pr-4 py-2.5 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-rave/40 transition-colors">
                 </div>
             </div>
 
@@ -374,11 +374,11 @@
                 </div>
             </div>
             <div class="flex flex-wrap gap-3">
-                <a href="https://github.com/vexohuman" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-inputBg hover:bg-gray-800 border border-gray-700/60 hover:bo[...]
+                <a href="https://github.com/vexohuman" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-inputBg hover:bg-gray-800 border border-gray-700/60 hover:border-rave/40 text-gray-300 px-4 py-2 rounded-lg transition-colors">
                     <i class="fab fa-github text-rave"></i>
                     <span>GitHub Profile</span>
                 </a>
-                <a href="https://discord.com/channels/@me/1510992151402512484" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-inputBg hover:bg-gray-800 border bor[...]
+                <a href="https://discord.com/channels/@me/1510992151402512484" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-inputBg hover:bg-gray-800 border border-gray-700/60 hover:border-rave/40 text-gray-300 px-4 py-2 rounded-lg transition-colors">
                     <i class="fab fa-discord text-rave"></i>
                     <span>Discord Profile</span>
                 </a>
@@ -416,42 +416,31 @@
             }
         }
 
-        // Fetch Live Statistics from your API using CORS proxy
+        // Fetch Live Statistics - Direct API call
         async function fetchLiveStats() {
             try {
-                // Using CORS proxy to bypass CORS restrictions
-                const apiUrl = 'http://78.154.103.46:9649/api/stats';
-                const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
-                
-                const response = await fetch(corsProxyUrl + apiUrl, {
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest'
-                    }
-                });
-                
+                const response = await fetch('http://78.154.103.46:9649/api/stats');
                 if (!response.ok) {
-                    throw new Error(`API responded with status ${response.status}`);
+                    throw new Error(`API error: ${response.status}`);
                 }
                 
                 const data = await response.json();
 
-                // Update DOM elements with actual stats
+                // Update stats with real data from API
                 document.getElementById('statServers').textContent = data.guilds.toLocaleString();
                 document.getElementById('statUsers').textContent = data.users.toLocaleString();
                 document.getElementById('statCommands').textContent = data.commands.toLocaleString();
                 document.getElementById('statUptime').textContent = data.uptime;
                 
-                console.log('Stats updated successfully:', data);
+                console.log('✅ Stats updated:', data);
             } catch (error) {
-                console.error('Stats fetch error:', error);
-                console.log('IMPORTANT: Your API server needs to enable CORS or you need to:');
-                console.log('1. Set up a CORS proxy, or');
-                console.log('2. Enable CORS headers on your API server, or');
-                console.log('3. Use a backend route on your own server to proxy the requests');
+                console.error('❌ Cannot fetch stats:', error.message);
+                console.log('Note: Stats API is HTTP-only and blocked by browser CORS policy.');
+                console.log('Solution: Ask your API provider to enable CORS headers or use HTTPS');
             }
         }
 
-        // Initial fetch and auto-refresh loop (every 5 seconds)
+        // Initial fetch and auto-refresh every 5 seconds
         fetchLiveStats();
         setInterval(fetchLiveStats, 5000);
 
